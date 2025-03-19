@@ -1,0 +1,24 @@
+#tituloprinpal{
+    color: blue;
+    font-size: 30px;
+}
+
+
+#parrafoprincipal{
+    background-color: darkgray;
+    color: rgb(0, 4, 8);
+    font-size: 10px;
+}
+
+#parrafo{
+    background-color: darkgray;
+    color: rgb(0, 4, 8);
+    font-size: 20px;
+}
+/* parrafoprincipal
+
+parrafosecundario
+
+subtitulo
+
+parrafo */

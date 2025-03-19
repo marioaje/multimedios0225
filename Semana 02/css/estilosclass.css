@@ -1,0 +1,87 @@
+*{
+    font-size: 12px
+}
+
+.tituloprinpal{
+    color: blue;
+    font-size: 30px;
+}
+
+/* colores */
+.letraroja{
+    color: red;
+}
+
+
+.letraazul{
+    color: blue;
+}
+
+
+.parrafoprincipal{
+    /* font-size: 10px; */
+}
+
+.parrafo{
+    background-color: darkgray;
+    color: rgb(0, 4, 8);   
+}
+
+.letragrande{
+    font-size: 30px;
+}
+
+.letrapeque{
+    font-size: 10px;
+}
+
+.alinearder{
+    text-align: right;
+}
+
+.alinearizq{
+    text-align: left;
+}
+
+.alinearcentrar{
+    text-align: center;
+}
+
+
+.botonguardar{
+    background-color: blue;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+
+.botoneliminar{
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.boton{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.eliminar{
+    background-color: red;
+    color: white; 
+}
+
+.guardar{
+    background-color: blue;
+    color: white;
+}
+/* botoneliminar */
