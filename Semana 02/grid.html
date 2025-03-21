@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 3px;
+            padding: 3px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .conten{
+            display: grid;
+            grid-template-columns: repeat(
+                auto-fit,
+                minmax(8.33%, 1fr)
+            );
+            gap: 6px;
+            padding: 3px;
+            background-color: gray;
+        }
+
+        .caja{
+            background-color: aqua;
+            padding: 3px;
+            text-align: center;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="conten">
+            <div class="caja">
+                <div class="caja">Items </div>
+                <div class="caja">Items </div>
+                <div class="caja">Items </div>
+                <div class="caja">Items </div>
+                <div class="caja">Items </div>
+                <div class="caja">Items </div>    
+            
+            </div>
+            <div class="caja">Items </div>
+            <div class="caja">Items </div>
+            <div class="caja">Items </div>
+            <div class="caja">Items </div>
+            <div class="caja">Items </div>
+    </div>
+</body>
+</html>
