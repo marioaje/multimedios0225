@@ -7,6 +7,7 @@ let instrumento = {
 
 let jsoninstrumento = JSON.stringify(instrumento);
 
+let stringJsonObjeto = '{clase: "Cuerda", accesorrios : "tiene", nombre : "tambor", precio : 30000}';
 
 function cargarDatos(){
     console.log(instrumento);
