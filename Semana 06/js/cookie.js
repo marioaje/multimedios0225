@@ -1,0 +1,1 @@
+document.cookie ="toda la informacion; tiempo fechas";
