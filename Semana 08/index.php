@@ -1,46 +1,39 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <title>Title</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
+<!-- //Que necesitamos para que sirva el php
+//Ocupamos un servidor en xamp.
+//El codigo del lenguage
+//La extension -->
+<?php
+//Las variables $
 
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
-    </head>
+$nombre = "Mario";
+$edad = 40;
+$estado = true;
+$decimales = 1.23;
 
-    <body>
-        <header>
-            <!-- place navbar here -->
-        </header>
-        <main>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores at labore aliquid minus exercitationem, ab veniam laudantium eaque odit sed consequatur totam commodi dolore repellendus alias, voluptas, blanditiis modi ducimus?
-            </p>
-        </main>
-        <footer>
-            <!-- place footer here -->
-        </footer>
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
-    </body>
-</html>
+
+    //echo "Saludos clase";
+    echo "Nombre : $nombre";
+
+
+    for ($i=0; $i < 10 ; $i++) { 
+        echo "Contador : $i <br>";
+    }
+
+
+    $a = 0;
+
+    while ($a < 10) {
+        echo "Contador While : $a <br>";
+        //$a += 1;
+        $a++;
+        # code...
+    }
+
+    //Como hago un arreglo?
+    $arreglo = ["Mario", "Isaac", "Alberto"];
+    foreach ($arreglo as $key ) {
+        # code...
+        echo "Key : $key <br>";
+    }
+?>
