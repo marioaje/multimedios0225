@@ -39,6 +39,18 @@ try {
     $conexion = Conexion::conectar();
     echo "Conectados a mysql";
 
+    //Si consultamos las tablas?
+    $stmt = $conexion->query("SHOW TABLES");
+    $tablas = $stmt->fetchAll(PDO::FETCH_COLUMN);
+
+    echo "<br> Lista de tablas";
+
+foreach ($tablas as $item) {
+    echo "<br>___$item";
+    # code...
+}
+
+
 
 }
 catch(Exception $ex){
