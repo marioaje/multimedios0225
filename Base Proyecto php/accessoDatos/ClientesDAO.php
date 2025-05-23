@@ -27,7 +27,14 @@ class ClientesDAO{
 
     }
 
-
+    public function obtenerPorId($id){
+        $stmt = $this->pdo->prepare("SELECT * FROM u484426513_ms225.clientes WHERE id = ?;");
+        $stmt->execute([$id]);
+        
+        $row = $stmt->fetch((PDO::FETCH_ASSOC));
+        return new Clientes($row['id'], $row['nombre'], $row['apellidos'], $row['telefono']);
+        
+    }
 
 
 

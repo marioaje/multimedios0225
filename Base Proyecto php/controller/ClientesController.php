@@ -16,6 +16,10 @@ class ClientesController{
         return $this->dao->obtenerDatos();
     }
 
+
+    public function obtenerPorId($id){
+        return $this->dao->obtenerPorId($id);
+    }
 }
 
 ?>
