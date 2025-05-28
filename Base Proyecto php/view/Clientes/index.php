@@ -151,8 +151,8 @@
         <input
             type="text"
             class="form-control"
-            name="nombre"
-            id="nombre"
+            name="apellidos"
+            id="apellidos"
             aria-describedby="helpId"
             placeholder=""
             required
