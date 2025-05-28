@@ -20,16 +20,30 @@ class ClientesController{
     public function obtenerPorId($id){
         return $this->dao->obtenerPorId($id);
     }
+
+
+    public function insertar(Clientes $objeto){
+        return $this->dao->insertar($objeto);
+    }
+
 }
 
 
 
 if ( $_SERVER['REQUEST_METHOD'] == 'POST'){
-    echo "Guardando";
-}
 
-else {
-    echo "usted no esta autorizado";
+//necesito capturar las variables del post, lo que viene del formulario
+//crear el objeto
+//luego enviar el objeto 
+//acceder a insertar
+
+
+
+//     echo "Guardando";
+// }
+
+// else {
+//     echo "usted no esta autorizado";
 }
 
 

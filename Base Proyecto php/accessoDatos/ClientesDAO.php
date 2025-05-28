@@ -36,12 +36,11 @@ class ClientesDAO{
         
     }
 
-
-
-
-
-
-
+    public function insertar( Clientes $objeto){
+        $sql = "INSERT INTO u484426513_ms225.clientes(nombre, apellidos, telefono) VALUES (?, ?, ?)";
+        $stmt = $this->pdo->prepare($sql);
+        return $stmt->execute([$objeto->nombre, $objeto->apellidos, $objeto->telefono]);
+    }
 
 
 
