@@ -1,10 +1,3 @@
-<!-- clave k&9W>hnC/X
-u484426513_ms225
- MySQL es: srv863.hstgr.io o puede usar esta IP como tu nombre de host: 45.88.196.5 -->
-
-
- <!-- ocupamos un string -->
-
 
  <?php
 
